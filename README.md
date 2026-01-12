@@ -21,9 +21,53 @@ It supports a simple but “proper lab” workflow:
 - **Workshop 2 — Setup + Simulation** (Notebook 01)
 - **Workshop 3 — Fitting + Model comparison** (Notebook 02)
 
-Slides live in `/slides/`.
+Slides are in `/slides/`.
 
 ---
+## What you do in each notebook (and what counts as “testing”)
+
+### Notebook 01 — Simulate a learning agent (creates the data)
+**File:** `notebooks/01_simulate_prediction_error.ipynb`
+
+In this notebook you will:
+- run a simple **prediction-error learning** model (delta-rule + softmax)
+- set a few input values (e.g., reward probabilities for A/B, number of trials, **α** and **β**, random seed)
+- generate a small dataset that looks like real behavioural data
+
+**Outputs you should get**
+- 1–2 plots showing learning (e.g., value estimates, choice probability, cumulative reward)
+- a CSV dataset saved to: `data/dummy_bandit.csv`  
+  (minimum columns: `trial`, `choice`, `reward`)
+
+**What “testing” means here**
+- sanity checks: do the plots change in sensible ways when you change **α** and **β**?
+
+---
+
+### Notebook 02 — Fit parameters + compare models (tests the model against data)
+**File:** `notebooks/02_fit_and_compare.ipynb`
+
+In this notebook you will:
+- load `data/dummy_bandit.csv` (generated in Notebook 01)
+- **fit α and β** by maximising log-likelihood (transparent grid search)
+- compare the learning model against a **baseline** (e.g., random choice or biased coin)
+- report the winner using **AIC** (lower is better)
+
+**Outputs you should get**
+- best-fit `α` and `β` values
+- a results table saved to: `results/tables/model_comparison.csv`
+- a simple check plot saved to: `results/figures/predicted_vs_observed.png`
+
+**What “testing” means here**
+- does the learning model explain choices better than a simpler baseline (fair comparison)?
+
+---
+
+### Using real data later (for dissertations)
+For the replication task we use dummy data. For dissertation projects, you swap in a real dataset that can be converted into the same basic format:
+- `trial`, `choice`, `reward` (plus optional `subject_id`, `block`, `condition`)
+
+The same fit/compare workflow applies.
 
 ## Quickstart (students): fork → run → save → submit
 
@@ -43,7 +87,7 @@ When you fork this repo, these are the defaults we recommend:
 
 - **Licence:** optional for student repos
   - You can leave this as **No licence** for assessed work unless your supervisor asks you to add one.
-
+---
 
 ### 1) Fork this repo
 Click **Fork** (top right) to create your own copy under your GitHub account.
