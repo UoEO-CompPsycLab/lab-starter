@@ -1,0 +1,111 @@
+PairID,Site,PC1,GUDMean,RiskLevel,SquirrelDensity
+1,Museum,88.28,13.024,Safe,1.07
+2,Museum,88.28,9.852,Safe,1.07
+3,Museum,88.28,2.508,Safe,1.07
+4,Museum,88.28,3.382,Safe,1.07
+5,Museum,88.28,3.148,Safe,1.07
+6,Museum,88.28,1.44,Safe,1.07
+7,Museum,88.28,5.096,Safe,1.07
+8,Museum,88.28,2.872,Safe,1.07
+9,Museum,88.28,1.578,Safe,1.07
+1,Museum,88.28,14.61,Risky,1.07
+2,Museum,88.28,5.994,Risky,1.07
+3,Museum,88.28,3.45,Risky,1.07
+4,Museum,88.28,1.504,Risky,1.07
+5,Museum,88.28,5.842,Risky,1.07
+6,Museum,88.28,2.896,Risky,1.07
+7,Museum,88.28,1.116,Risky,1.07
+8,Museum,88.28,14.55,Risky,1.07
+9,Museum,88.28,3.648,Risky,1.07
+10,Naphill Forest,-48.81,11.164,Safe,0.19
+11,Naphill Forest,-48.81,4.792,Safe,0.19
+12,Naphill Forest,-48.81,4.28,Safe,0.19
+13,Naphill Forest,-48.81,2.698,Safe,0.19
+14,Naphill Forest,-48.81,11.948,Safe,0.19
+15,Naphill Forest,-48.81,7.498,Safe,0.19
+16,Naphill Forest,-48.81,9.524,Safe,0.19
+17,Naphill Forest,-48.81,6.478,Safe,0.19
+18,Naphill Forest,-48.81,7.732,Safe,0.19
+10,Naphill Forest,-48.81,13.16,Risky,0.19
+11,Naphill Forest,-48.81,6.352,Risky,0.19
+12,Naphill Forest,-48.81,9.71,Risky,0.19
+13,Naphill Forest,-48.81,3.53,Risky,0.19
+14,Naphill Forest,-48.81,13.816,Risky,0.19
+15,Naphill Forest,-48.81,10.786,Risky,0.19
+16,Naphill Forest,-48.81,5.04,Risky,0.19
+17,Naphill Forest,-48.81,12.624,Risky,0.19
+18,Naphill Forest,-48.81,11.324,Risky,0.19
+19,Gardens,13.11,7.084,Safe,0.85
+20,Gardens,13.11,1.428,Safe,0.85
+21,Gardens,13.11,2.56,Safe,0.85
+22,Gardens,13.11,3.706,Safe,0.85
+23,Gardens,13.11,4.662,Safe,0.85
+24,Gardens,13.11,3.612,Safe,0.85
+25,Gardens,13.11,4.584,Safe,0.85
+26,Gardens,13.11,1.938,Safe,0.85
+27,Gardens,13.11,3.396,Safe,0.85
+19,Gardens,13.11,9.41,Risky,0.85
+20,Gardens,13.11,2.388,Risky,0.85
+21,Gardens,13.11,3.01,Risky,0.85
+22,Gardens,13.11,5.8,Risky,0.85
+23,Gardens,13.11,7.986,Risky,0.85
+24,Gardens,13.11,12.454,Risky,0.85
+25,Gardens,13.11,13.45,Risky,0.85
+26,Gardens,13.11,12.582,Risky,0.85
+27,Gardens,13.11,12.582,Risky,0.85
+28,Park,7.28,2.754,Safe,4.14
+29,Park,7.28,1.12,Safe,4.14
+30,Park,7.28,3.382,Safe,4.14
+31,Park,7.28,3.218,Safe,4.14
+32,Park,7.28,2.012,Safe,4.14
+33,Park,7.28,2.592,Safe,4.14
+34,Park,7.28,2.418,Safe,4.14
+35,Park,7.28,0.83,Safe,4.14
+36,Park,7.28,1.944,Safe,4.14
+28,Park,7.28,7.416,Risky,4.14
+29,Park,7.28,4.252,Risky,4.14
+30,Park,7.28,7.35,Risky,4.14
+31,Park,7.28,6.552,Risky,4.14
+32,Park,7.28,5.594,Risky,4.14
+33,Park,7.28,5.976,Risky,4.14
+34,Park,7.28,7.458,Risky,4.14
+35,Park,7.28,5.886,Risky,4.14
+36,Park,7.28,1.46,Risky,4.14
+37,Arboritum,-23.69,4.196,Safe,0.85
+38,Arboritum,-23.69,10.44,Safe,0.85
+39,Arboritum,-23.69,5.974,Safe,0.85
+40,Arboritum,-23.69,7.258,Safe,0.85
+41,Arboritum,-23.69,5.642,Safe,0.85
+42,Arboritum,-23.69,5.772,Safe,0.85
+43,Arboritum,-23.69,5.884,Safe,0.85
+44,Arboritum,-23.69,11.662,Safe,0.85
+45,Arboritum,-23.69,3.976,Safe,0.85
+37,Arboritum,-23.69,3.374,Risky,0.85
+38,Arboritum,-23.69,9.608,Risky,0.85
+39,Arboritum,-23.69,11.494,Risky,0.85
+40,Arboritum,-23.69,13.448,Risky,0.85
+41,Arboritum,-23.69,9.422,Risky,0.85
+42,Arboritum,-23.69,10.82,Risky,0.85
+43,Arboritum,-23.69,6.564,Risky,0.85
+44,Arboritum,-23.69,2.46,Risky,0.85
+45,Arboritum,-23.69,10.64,Risky,0.85
+46,Pepperbox wood,-36.19,10.604,Safe,0.8
+47,Pepperbox wood,-36.19,6.348,Safe,0.8
+48,Pepperbox wood,-36.19,2.184,Safe,0.8
+49,Pepperbox wood,-36.19,0.56155,Safe,0.8
+50,Pepperbox wood,-36.19,4.68,Safe,0.8
+51,Pepperbox wood,-36.19,7.776,Safe,0.8
+52,Pepperbox wood,-36.19,7.37,Safe,0.8
+53,Pepperbox wood,-36.19,5.922,Safe,0.8
+54,Pepperbox wood,-36.19,2.878,Safe,0.8
+55,Pepperbox wood,-36.19,6.256,Safe,0.8
+46,Pepperbox wood,-36.19,13.314,Risky,0.8
+47,Pepperbox wood,-36.19,13.136,Risky,0.8
+48,Pepperbox wood,-36.19,11.442,Risky,0.8
+49,Pepperbox wood,-36.19,12.312,Risky,0.8
+50,Pepperbox wood,-36.19,7.542,Risky,0.8
+51,Pepperbox wood,-36.19,13.42,Risky,0.8
+52,Pepperbox wood,-36.19,12.412,Risky,0.8
+53,Pepperbox wood,-36.19,10.866,Risky,0.8
+54,Pepperbox wood,-36.19,11.652,Risky,0.8
+55,Pepperbox wood,-36.19,11.436,Risky,0.8
