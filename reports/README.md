@@ -1,4 +1,4 @@
-# Reports
+﻿# Reports
 
 This folder stores short model specs, reproducibility logs, and GAME worksheets.
 
@@ -12,3 +12,7 @@ This folder stores short model specs, reproducibility logs, and GAME worksheets.
 - reports/squirrels/reproducibility_log.md
 - reports/squirrels/GAME_worksheet.md
 
+## Track C — Trident-G toy test
+- reports/trident/model_spec.md
+- reports/trident/reproducibility_log.md
+- reports/trident/GAME_worksheet.md
